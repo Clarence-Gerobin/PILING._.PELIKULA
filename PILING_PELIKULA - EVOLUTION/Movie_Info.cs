@@ -24,16 +24,17 @@ public class Movie_Info
 
     public void Show_Detail()
     {
-        Console.WriteLine("Title    : " + MovieName);
+        Console.WriteLine();
+        Console.WriteLine("Title        : " + MovieName);
     }
 
     public void Show_Details()
     {
         Console.WriteLine("Release Date : " + MovieRelease);
         Console.WriteLine("Director     : " + MovieDirector);
-        Console.WriteLine("Synopsis     : " + MovieSynopsis);
         Console.WriteLine("Main Cast    : " + MovieCast);
-        Console.WriteLine("Duration     : " + MovieRuntime + "minutes");
+        Console.WriteLine("Duration     : " + MovieRuntime + " " + "minutes");
+        Console.WriteLine("Synopsis     : " + MovieSynopsis);
     }
 
 }
