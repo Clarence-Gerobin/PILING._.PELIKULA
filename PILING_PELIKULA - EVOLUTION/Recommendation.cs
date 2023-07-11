@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace PilingPelikula;
 
 public class Recommendation
-{ 
+{
     public string movieName;
     public string movieGenre;
     public string movieSynopsis;
 }
-
